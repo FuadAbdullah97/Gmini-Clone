@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import '../Sidebar/SideBar.css'
 import {assets} from '../../assets/assets.js'
-function SideBar(props) {
+function SideBar() {
 
     const [expanded, setExpanded] = useState(false);
     return (
