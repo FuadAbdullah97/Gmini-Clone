@@ -30,11 +30,15 @@
     align-items: center;
     justify-content: center;
     background: #e6eaf1;
-    padding:  5px 10px;
+    padding:  10px 10px;
     border-radius: 100px;
     margin: 20px 0px;
     gap: 20px;
     font-size: 12px;
+}
+.sidebar .new-chat p {
+    padding : 0px;
+    margin: 0px;
 }
 .sidebar .new-chat img { max-width: 15px; }
 
@@ -65,10 +69,11 @@
 
 .sidebar .bottom-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 12px;
     cursor: pointer;
+    gap: 10px;
 }
 
