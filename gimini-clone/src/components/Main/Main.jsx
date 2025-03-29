@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Main/Main.css'
 import {assets} from "../../assets/assets.js";
-function Main(props) {
+function Main() {
     return (
         <div className='main'>
             <div className="nav">
