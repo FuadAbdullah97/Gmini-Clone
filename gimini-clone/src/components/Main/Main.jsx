@@ -30,6 +30,10 @@ function Main(props) {
                         <p>Briefly summarize this concept : urban Planing</p>
                         <img src={assets.compass_icon} alt=""/>
                     </div>
+                    <div className="card">
+                        <p>Briefly summarize this concept : urban Planing</p>
+                        <img src={assets.compass_icon} alt=""/>
+                    </div>
                     <div className="main-bottom">
                         <div className="search-box">
                             <input type="text" placeholder='Enter a prompt here...'/>
